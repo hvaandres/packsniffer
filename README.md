@@ -1,6 +1,6 @@
-# 📦 Packalyzer - PE File Packing and Obfuscation Detection Tool
+# 📦 Packanalyzer - PE File Packing and Obfuscation Detection Tool
 ### 🎯 Purpose
-Packalyzer is a Python-based tool designed for analyzing Windows PE (Portable Executable) files to determine:
+Packanalyzer is a Python-based tool designed for analyzing Windows PE (Portable Executable) files to determine:
 
 - Whether a file is packed (compressed or encrypted with a packer),
 
