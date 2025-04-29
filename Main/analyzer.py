@@ -2,6 +2,9 @@
 # It checks for UPX signatures, analyzes section entropy, and scans for YARA rules.
 # It also checks for control flow obfuscation and imports.
 # Disclaimer: This script is for educational purposes only. Use it responsibly and ethically.
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import argparse
 import pefile
